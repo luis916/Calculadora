@@ -22,7 +22,6 @@ var resultado = document.getElementById('resultado');
 var entradaDatos = document.getElementById('entradaDatos');
 
 //eventos numeros
-entradaDatos.style.fontSize = '300%';
 cero.addEventListener('click',function(){
     entradaDatos.value = entradaDatos.value+'0';
 });
@@ -96,6 +95,7 @@ resultado.addEventListener('click',function(){
     resolver();
 });
 
+if (NaN){alert(0);}
 function resolver(){
     res = 0;
     switch(operaciones){
@@ -106,5 +106,6 @@ function resolver(){
         case '%': res = parseInt(dato1)%parseInt(dato2);break;
 
     }
+    
     entradaDatos.value = res;
 }
