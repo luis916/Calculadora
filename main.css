@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+   
+.calculadora{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20%;
+  text-align: center;
+  color: rgb(255, 174, 0);
+  padding: 14px;
+  background-color: rgb(0,0,0,0.9);
+}
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+#entradaDatos{
+    width: 100%;
+    box-sizing: border-box;
+}
+input{
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0;
+    width: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-content: flex-start;
+    font-size: 20px;
+}
