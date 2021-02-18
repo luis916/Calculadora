@@ -22,7 +22,7 @@ var resultado = document.getElementById('resultado');
 var entradaDatos = document.getElementById('entradaDatos');
 
 //eventos numeros
-entradaDatos.style.fontSize = '200%';
+entradaDatos.style.fontSize = '300%';
 cero.addEventListener('click',function(){
     entradaDatos.value = entradaDatos.value+'0';
 });
