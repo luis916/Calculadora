@@ -1,26 +1,44 @@
-*{
-    text-align: center;
+html{height: 100vh;}
+.calculadora{
+    border: 2px solid yellow;
     box-sizing: border-box;
-    margin-top: 5%;
-    width:auto;
-    border-radius: 4px;
+    text-align: center;
+    height: 80vh;
+    margin-top: 10vh;
+   
 }
 body{
-    background-image:url('fondo.jpg') ;
-    height: 80%;
-}
-.calculadora{
-    border: 1px solid yellow;
-    
+    background-image: url('fondo.jpg');
 }
 input[type='text']{
-    width: 95%;
-    border: none;
-    height: 70px;
+    width: 80.3vw;
+    padding-bottom: 1vh;
+    font-size:10vmin;  
+    border:none;
+    background-color:rgb(0,0,0,0.7);
+    color: white;
+    cursor: context-menu;
 }
 input[type='submit']{
-    width: 20%;
-    font-size: 200%;
-    padding: 4%;
-    border: none;
+    width: 20vw;
+    height: 6vh;
+    font-size:5vmin;
+    position: relative;
+    margin-top: 2vh;
+    border:none;
+    background-color:rgb(0,0,0,0.7);
+    color: white;
+    
+}
+#texto,#instagram{
+    font-size:7vmin;
+    margin-top:0 ;
+    color: yellow;
+}
+#borrar,#suma,#resta,#resto,#multiplicacion,#division,#resultado{color: yellow;}
+a{
+    text-decoration: none;
+}
+#instagram:hover{
+    color: hotpink;
 }
